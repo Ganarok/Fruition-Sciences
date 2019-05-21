@@ -50,13 +50,14 @@ char *open_file(char *filepath)
 int main(int ac, char **av)
 {
     aspi_t asp;
-    char *path = open_file(av[1]);
-    char **file = my_str_to_tab(path, '\n');
-
     if (ac != 2) {
         fprintf(stderr, "Error : You need at least 1 argument.\n");
         return (84);
-    } else if (!fill_struct(file, &asp))
+    }
+    char *path = open_file(av[1]);
+    char **file = my_str_to_tab(path, '\n');
+
+    if (!fill_struct(file, &asp))
         return (84);
     movement(&asp);
     printf("%d %d %s\n", asp.x, asp.y, asp.dir);
