@@ -5,6 +5,7 @@ Exercice pour l'entretien : Fruition Sciences
 
 La compilation se fait via le Makefile, avec la commande "make re".
 Vous devez ensuitez executer le binaire en entrant la commande './aspirateur file.txt'
+/!\ Ces commandes doivent être entrées dans le dossier Fruition Sciences /!\
 
 Le fichier file.txt contient les données suivantes :
 
