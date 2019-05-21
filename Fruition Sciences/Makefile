@@ -7,7 +7,6 @@
 
 SRC	=	main.c	\
 		src/movement.c \
-		src/my_getnbr.c \
 		src/fullstruct.c	\
 		src/my_str_to_word_array.c \
 
