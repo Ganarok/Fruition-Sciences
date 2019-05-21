@@ -15,4 +15,4 @@ Le fichier file.txt contient les données suivantes :
 
 DADADADAA
 
-Ces données représentent donc le movement de l'aspirateur.
+Ces données représentent donc le mouvement de l'aspirateur.
