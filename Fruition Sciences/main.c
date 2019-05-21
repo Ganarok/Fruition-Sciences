@@ -18,7 +18,7 @@ int my_check(int fd, int check_error, int check)
     if (check == 1 && fd == -1) {
         fprintf(stderr, "Error in function open: No such file");
         fprintf(stderr, " or directory.\n");
-        return (1);
+        exit (84);
     } else if (check == 2 && check_error <= 0) {
         fprintf(stderr, "The file is empty.\n");
         return (1);
