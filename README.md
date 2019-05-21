@@ -9,7 +9,9 @@ Vous devez ensuitez executer le binaire en entrant la commande './aspirateur fil
 Le fichier file.txt contient les données suivantes :
 
 10 10
+
 5 5 N
+
 DADADADAA
 
 Ces données représentent donc le movement de l'aspirateur.
